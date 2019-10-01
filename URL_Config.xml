@@ -1,0 +1,25 @@
+<collection program = "URL Monitor">
+
+<LINK title = " "><!--title of you link-->
+   <Application> </Application><!--application name-->
+   <Description> </Description><!--application description-->
+   <URL>http://abc.com</URL>
+   <Up_Time_Polling>600</Up_Time_Polling><!--frequency to check when link is active-->
+   <Down_Time_Polling>3600</Down_Time_Polling><!--frequency to check when link is down-->
+   <Notifiers id = "abc@gmail.com" /><!--Notifiers-->
+   <Notifiers id = "abc@gmail.com" />
+
+</LINK>
+
+<LINK title = " ">
+   <Application> </Application>
+   <Description> </Description>
+   <URL>http://xyz.com</URL>
+   <Up_Time_Polling>600</Up_Time_Polling>
+   <Down_Time_Polling>3600</Down_Time_Polling>
+   <Notifiers id = "abc@gmail.com" />
+   <Notifiers id = "abc@gmail.com" />
+	
+</LINK>
+
+</collection>
